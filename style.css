@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/images.jpeg'); /* Ensure the path is correct */
+    background-size: cover; /* or 'contain' for maintaining aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Ensure body takes full height */
+    display: flex; /* Use flex to align content */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    color: white; /* Set text color to white for better contrast */
+}
+
+h1 {
+    text-align: center;
+    color: #FFD700; /* Gold color for headings */
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Adjust width as needed */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: auto; /* Center the form */
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #FFD700; /* Gold border */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Light background for input */
+    color: white; /* Input text color */
+}
+
+button {
+    background-color: #FFD700; /* Gold button */
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFC107; /* Slightly lighter on hover */
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #FFD700; /* Gold color for links */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FFC107; /* Lighter on hover */
+}
