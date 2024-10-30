@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Vanadevi Dashboard</h1>
+        
+        <div class="button-container">
+            <a href="{{ url_for('iot_alerts') }}" class="button">IoT Alerts</a>
+            <a href="{{ url_for('eco_tourism') }}" class="button">Eco-Tourism</a>
+            <a href="{{ url_for('report_incident') }}" class="button">Report Incident</a>
+            <a href="{{ url_for('community') }}" class="button">Community Challenges</a>
+            <a href="{{ url_for('profile') }}" class="button">Profile</a>
+            <a href="{{ url_for('view_reports') }}" class="button">View Submitted Reports</a>
+            <a href="{{ url_for('logout') }}" class="button">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
